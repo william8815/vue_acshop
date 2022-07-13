@@ -1,0 +1,59 @@
+// global
+:root {
+  // 背景
+  --main-background-color: #fff;
+  --cart-background-color: #fff;
+  --footer-background-color: #f6f7f8;
+  --mathIcon-background-color: #F0F0F5;
+  --stepper-background-color: #000;
+  --box-shadow-inset: #2A2A2A;
+
+  // 文字顏色
+  --main-font-color: #000;
+  --sub-font-color: #2A2A2A;
+  --step-font-color: #AFB1BD;
+  // border
+  --way-border-color: #F0F0F5;
+  --way-checked-color: #2A2A2A;
+  // img
+  --logo-photo: url("~@/assets/img/Logo@2x.png");
+}
+
+[data-theme="dark"] {
+  --main-background-color: #000;
+  --cart-background-color: #383838;
+  --footer-background-color: #333;
+  --mathIcon-background-color: #808080;
+  --stepper-background-color: #333;
+  --box-shadow-inset: #333;
+  //文字顏色 
+  --main-font-color: #fff;
+  --sub-font-color: #fff;
+  --step-font-color: #fff;
+  // border
+  --way-border-color: #2A2A2A;
+  --way-checked-color: #F0F0F5;
+  // img
+  --logo-photo: url("~@/assets/img/Logo@2x.png");
+}
+
+html,
+body {
+  background: var(--main-background-color);
+  color: var(--main-font-color);
+}
+
+.logo {
+  background: var(--logo-photo);
+  background-size: cover;
+
+  &.logo-top {
+    width: 171px;
+    height: 30px;
+  }
+
+  &.logo-bottom {
+    width: 175px;
+    height: 31px;
+  }
+}
