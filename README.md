@@ -9,8 +9,8 @@
 ## 環境建置與需求 (prerequisites)：
 目前所使用的軟體與套件版本 :
 <ul>
-    <li><a href="https://www.npmjs.com/package/express">Vue.js</a>(v2.6.11)</li>
-    <li><a href="https://www.npmjs.com/package/express">Sass/Scss</a>(v1.53.0)</li>
+    <li>Vue.js (v2.6.11)</li>
+    <li>Sass/Scss (v1.53.0)</li>
 </ul>
 
 ## 安裝與執行步驟 (installation and execution)：
